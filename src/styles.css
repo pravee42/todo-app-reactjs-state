@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.todos {
+  border: solid 1px black;
+  height: 60%;
+  padding: 7px;
+  width: 70%;
+  position: fixed;
+  overflow-y: scroll;
+  margin-top: 10px;
+}
+
+.todos p {
+  color: red;
+  padding: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.todos p:hover {
+  background-color: beige;
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 5px 5px 30px bisque;
+}
